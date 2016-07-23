@@ -1,0 +1,29 @@
+~ # id _
+~ + _ true
+~ ! _ _
+~ ? no questions
+<!DOCTYPE html>
+. html :
+    
+    . head :
+        
+        . title :
+            My Site
+        --
+        
+        . meta charset utf-8, foo "bar baz", bar boo
+    --
+    
+    . body :
+        
+        . h1 #title, +data-protect, foo bar :
+            My Site
+        --
+        
+        . div #content, !foo, ?baz :
+            The content.
+        --
+        
+        <div id="footer">The footer.</div>
+    --
+--

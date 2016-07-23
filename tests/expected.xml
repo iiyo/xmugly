@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>
+            My Site
+        </title>
+        
+        <meta charset="utf-8" foo="bar baz" />
+    </head>
+    
+    <body>
+        
+        <h1 id="title" data-protect="true" foo="bar">
+            My Site
+        </h1>
+        
+        <div id="content" foo="foo" no="questions">
+            The content.
+        </div>
+        
+        <div id="footer">The footer.</div>
+    </body>
+</html>
