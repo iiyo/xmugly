@@ -1,10 +1,10 @@
 {
   "name": "xmugly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "XMugLy (XML less ugly) is library that lets you write XML using a much nicer and less verbose syntax.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/"
+    "test": "cd tests && mocha ."
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/iiyo/xmugly#readme",
   "bin": {
     "xmugly": "./bin/cli.js"
+  },
+  "dependencies": {
+    "browserify": "^13.1.0"
   }
 }
