@@ -7,7 +7,7 @@
             My Site
         </title>
         
-        <meta charset="utf-8" foo="bar baz" />
+        <meta charset="utf-8" foo="bar baz" bar="boo" />
     </head>
     
     <body>
