@@ -1,5 +1,7 @@
 /* global module */
 
+(function () {
+    
 function  compile (text) {
     
     text = compileElements(text);
@@ -237,6 +239,15 @@ function normalizeWhitespace (text) {
     return text.trim().replace(/[\s]+/g, " ");
 }
 
-module.exports = {
-    compile: compile
-};
+if (typeof module !== "undefined") {
+    module.exports = {
+        compile: compile
+    };
+}
+else {
+    window.xmugly = {
+        compile: compile
+    };
+}
+
+}());
