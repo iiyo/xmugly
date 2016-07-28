@@ -1,13 +1,5 @@
-//
-// A module containing functions for compiling a simple command language to the old
-// WSE command elements.
-//
-
 /* global module */
 
-//
-// Compiles the new WSE command language to XML elements.
-//
 function  compile (text) {
     
     text = compileElements(text);
