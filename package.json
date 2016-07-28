@@ -1,6 +1,6 @@
 {
   "name": "xmugly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "XMugLy (XML less ugly) is library that lets you write XML using a much nicer and less verbose syntax.",
   "main": "index.js",
   "scripts": {
